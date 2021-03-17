@@ -13,6 +13,12 @@
 	<version>1.0.0</version>
 	<name>kuber1</name>
 	<description>My first kuber app</description>
+	<distributionManagement>
+   		<snapshotRepository>
+      		<id>new</id>
+      		<url>http://192.168.1.129:30000/nexus/content/repositories/new</url>
+   		</snapshotRepository>
+	</distributionManagement>
 
 	<properties>
 		<java.version>1.8</java.version>
