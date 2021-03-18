@@ -20,13 +20,11 @@
          	<url>http://192.168.1.129:30005/repository/maven-releases</url>
        		</repository>
 	</distributionManagement>
-	<servers>
    		<server>
       		<id>maven-releases</id>
       		<username>box</username>
 	      	<password>boxbox</password>
    		</server>
-	</servers>
 
 	<properties>
 		<java.version>1.8</java.version>
