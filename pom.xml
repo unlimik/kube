@@ -14,10 +14,10 @@
 	<name>kuber1</name>
 	<description>My first kuber app</description>
 	<distributionManagement>
-   		<deploymentRepository>
-      		<id>maven-release</id>
-      		<url>http://192.168.1.129:30005/repository/maven-release</url>
-   		</deploymentRepository>
+         	<id>maven-release</id>
+         	<name>Nexus repo</name>
+         	<url>http://192.168.1.129:30005/repository/maven-release</url>
+       		</repository>
 	</distributionManagement>
 
 	<properties>
