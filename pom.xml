@@ -16,7 +16,7 @@
 	<distributionManagement>
    		<snapshotRepository>
       		<id>maven-release</id>
-      		<url>http://192.168.1.129:30005/</url>
+      		<url>http://192.168.1.129:30005/repository/maven-release</url>
    		</snapshotRepository>
 	</distributionManagement>
 
