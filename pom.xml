@@ -16,7 +16,7 @@
 	<distributionManagement>
    		<snapshotRepository>
       		<id>maven-release</id>
-      		<url>http://192.168.1.129:30005/nexus/content/repositories/new</url>
+      		<url>http://192.168.1.129:30005/</url>
    		</snapshotRepository>
 	</distributionManagement>
 
@@ -57,25 +57,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-   				<groupId>org.sonatype.plugins</groupId>
-   				<artifactId>nexus-staging-maven-plugin</artifactId>
-   				<version>1.5.1</version>
-   				<executions>
-      					<execution>
-         				<id>default-deploy</id>
-         				<phase>deploy</phase>
-         				<goals>
-            				<goal>deploy</goal>
-			         </goals>
-      				</execution>
-   			</executions>
-   			<configuration>
-      				<serverId>nexus</serverId>
-      				<nexusUrl>http://192.168.1.129:30005/</nexusUrl>
-      				<skipStaging>true</skipStaging>
-   			</configuration>
 			</plugin>
 		</plugins>
 	</build>
