@@ -10,6 +10,6 @@ public class Kuber1Controoler {
     @ResponseBody
     String hello()
     {
-        return "Hello! Hello!";
+        return "Hello! Hello! Hello!";
     }
 }
