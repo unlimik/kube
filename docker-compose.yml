@@ -3,7 +3,7 @@ services:
   message-server:
     container_name: kuber1
     build:
-      context: docker-message-server
+      #context: docker-message-server
       dockerfile: Dockerfile
     image: kuber1:latest
     ports:
