@@ -2,9 +2,9 @@ version: '2'
 services:
   kuber1:
     container_name: kuber1
-    build:
-      context: docker-kuber1
-      dockerfile: Dockerfile
+    #build:
+    #  context: docker-kuber1
+    #  dockerfile: Dockerfile
     image: kuber1:latest
     ports:
       - 8090:8090
